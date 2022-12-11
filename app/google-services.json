@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1084417760874",
+    "firebase_url": "https://memcardgame-3815d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "memcardgame-3815d",
+    "storage_bucket": "memcardgame-3815d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084417760874:android:bd12bae2e0b26674e0f413",
+        "android_client_info": {
+          "package_name": "com.daysali.memcardgame_ktln"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084417760874-gc31is9q34hef55tjhqekajg50lnvvla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY-nsBK7aQsrlJdLgmYOaorKrPzScy16o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084417760874-gc31is9q34hef55tjhqekajg50lnvvla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

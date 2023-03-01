@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.daysali.memcardgame_ktln">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,11 +18,33 @@
         android:theme="@style/Theme.Memcardgame_ktln"
         tools:targetApi="31">
         <activity
+            android:name=".SifreDegister"
+            android:exported="false" />
+        <activity
+            android:name=".CokluPlayerGame6vs6"
+            android:exported="false" />
+        <activity
+            android:name=".CokluPlayerGame4vs4"
+            android:exported="false" />
+        <activity
+            android:name=".CokluPlayerGame"
+            android:exported="false" />
+        <activity
+            android:name=".SinglePlayerGame6vs6"
+            android:exported="false" />
+        <activity
+            android:name=".SinglePlayerGame4vs4"
+            android:exported="false" />
+        <activity
             android:name=".SinglePlayerGame"
             android:exported="false" />
         <activity
             android:name=".GameScreen"
-            android:exported="true" >
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,19 +52,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignInActivity"
-            android:exported="false" >
-        </activity>
-
-
-        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

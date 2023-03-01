@@ -16,30 +16,73 @@ class GameScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityGameScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        var seviye2 :  String = "2x2"
+        var seviye4 :  String = "4x4"
+        var seviye6 :  String = "6x6"
+        var seviye : String = ""
+        var gamerSayisi : String = ""
+        var gamerSayisiTek : String = "Tek Oyuncu"
+        var gamerSayisiCok : String = "Çoklu Oyuncu"
+
+        binding.button2.setOnClickListener {
+            val intent = Intent(this@GameScreen, SifreDegister::class.java)
+            startActivity(intent)
+            finish()
+            }
+
+
         binding.radioGroup.setOnCheckedChangeListener { group, checkedId ->
             if(checkedId == binding.radioButton2.id){
-                println(binding.radioButton2.text)
+                seviye = (binding.radioButton2.text).toString()
             }
             if(checkedId == binding.radioButton4.id){
-                println(binding.radioButton4.text)
+                seviye = (binding.radioButton4.text).toString()
             }
             if(checkedId == binding.radioButton6.id){
-                println(binding.radioButton6.text)
+                seviye = (binding.radioButton6.text).toString()
             }
         }
         binding.radioGroup2.setOnCheckedChangeListener { group, checkedId ->
             if(checkedId == binding.radioButtonTek.id){
-                println(binding.radioButtonTek.text)
+                gamerSayisi = (binding.radioButtonTek.text).toString()
             }
             if(checkedId == binding.radioButtonMultiple.id){
-                println(binding.radioButtonMultiple.text)
+                gamerSayisi = (binding.radioButtonMultiple.text).toString()
         }
         }
 
         binding.button5.setOnClickListener {
-            val intent = Intent(this, SinglePlayerGame::class.java)
-            startActivity(intent)
-            finish()
+            if(seviye == seviye2 && gamerSayisi == gamerSayisiTek){
+                val intent = Intent(this@GameScreen, SinglePlayerGame::class.java)
+                startActivity(intent)
+                finish()
+            }
+            if(seviye == seviye4 && gamerSayisi == gamerSayisiTek){
+                val intent = Intent(this@GameScreen, SinglePlayerGame4vs4::class.java)
+                startActivity(intent)
+                finish()
+            }
+            if(seviye == seviye6 && gamerSayisi == gamerSayisiTek){
+                val intent = Intent(this@GameScreen, SinglePlayerGame6vs6::class.java)
+                startActivity(intent)
+                finish()
+            }
+            if(seviye == seviye2 && gamerSayisi == gamerSayisiCok){
+                val intent = Intent(this@GameScreen, CokluPlayerGame::class.java)
+                startActivity(intent)
+                finish()
+            }
+            if(seviye == seviye4 && gamerSayisi == gamerSayisiCok){
+                val intent = Intent(this@GameScreen, CokluPlayerGame4vs4::class.java)
+                startActivity(intent)
+                finish()
+            }
+            if(seviye == seviye6 && gamerSayisi == gamerSayisiCok){
+                val intent = Intent(this@GameScreen, CokluPlayerGame6vs6::class.java)
+                startActivity(intent)
+                finish()
+            }
+
         }
 
 

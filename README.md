@@ -1,42 +1,44 @@
-﻿# SHOPPING APP  
-## Mega Store
+﻿# MEMORY CARD GAME
+## Harry Potter Card Game
  
- Mega Store is a demo of a mobile app design which I saw at UpLabs, coded in Flutter SDK using Dart programming language.
- 
- **Technologies Used**
-
-- Dart programming language
-
-- Visual Studio Code development environment 
- 
-- **The Packages Used:** 
- 
-  **·** *GetX*
-
-  **·** *shared_preferences*
-
-  **·** *google_nav_bar*
-
-  **·** *lottie*
-
-<img src="https://user-images.githubusercontent.com/114333454/223197093-94582dd7-6787-458a-8e34-d26d585d26eb.mp4" width="auto">
-
 ## Screenshots
-Home Page
+**Sign Up Screen**
 
-<img src="https://user-images.githubusercontent.com/114333454/223199219-dfd0fffc-cf55-43ed-8d3c-9828cd49e556.png" alt="Home Page" width="400" height="auto">
+<img src="https://user-images.githubusercontent.com/114333454/223245151-f3c0442b-d987-4231-840f-f4d394c5144d.png" width="350" height="auto">
 
+**Sign In Screen**
 
-Drawer
+<img src="https://user-images.githubusercontent.com/114333454/223244105-982481f2-d821-4519-ab2b-f5b9c8f64c8b.png" width="350" height="auto">
 
-<img src="https://user-images.githubusercontent.com/114333454/223199236-6bfa766c-d633-49fc-a675-e2ebbfdbddda.png" alt="Drawer" width="400" height="auto">
+**Change Password Screen**
 
+<img src="https://user-images.githubusercontent.com/114333454/223244124-cf15af36-c6f8-49b5-a911-a0bebb5c290b.png" width="350" height="auto">
 
-Product Page
+**Choosing Game Mode Screen**
 
-<img src="https://user-images.githubusercontent.com/114333454/223199247-70d23aae-6b8e-463a-af17-7bbf4102daba.png" alt="Product Page" width="400" height="auto">
+<img src="https://user-images.githubusercontent.com/114333454/223244141-e1ab7461-55ce-4683-b06d-adafd2640499.png" width="350" height="auto">
 
+**2x2 Single Player**
 
-## Mobile App Design on UpLabs
+<img src="https://user-images.githubusercontent.com/114333454/223244157-6fb4e6c5-b130-4961-998d-5084221765f4.png" width="350" height="auto">
 
-<img src="https://user-images.githubusercontent.com/114333454/223230251-a25e48ea-4bdc-4dba-a5c3-7b78050f1de2.jpg" width="auto" height="auto">
+**4x4 Single Player**
+
+<img src="https://user-images.githubusercontent.com/114333454/223244171-10433261-e85d-4c8f-881c-1b4759dfd268.png" width="350" height="auto">
+
+**6x6 Single Player**
+
+<img src="https://user-images.githubusercontent.com/114333454/223244197-6bc376aa-4d76-4316-92d1-4ffb45d8ed60.png" width="350" height="auto">
+
+**2x2 Multiplayer**
+
+<img src="https://user-images.githubusercontent.com/114333454/223244232-242d0a6b-05f8-4191-a979-a49f257e27ee.png" width="350" height="auto">
+
+**4x4 Multiplayer**
+
+<img src="https://user-images.githubusercontent.com/114333454/223244246-6d837f9a-2118-4e0c-818c-570a133cd589.png" width="350" height="auto">
+
+**6x6 Multiplayer**
+
+<img src="https://user-images.githubusercontent.com/114333454/223244256-302fd80f-13ad-4938-8819-9b585b4988ad.png" width="350" height="auto">
+

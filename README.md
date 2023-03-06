@@ -5,11 +5,11 @@
  
  **Technologies Used**
 
--Dart programming language
+- Dart programming language
 
--Visual Studio Code development environment 
+- Visual Studio Code development environment 
  
--**The Packages Used**
+- **The Packages Used:** 
  
   **·** *GetX*
 
